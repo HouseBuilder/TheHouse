@@ -20,7 +20,7 @@
   "jest": {
     "testEnvironment": "jest-environment-node",
     "collectCoverageFrom": [
-      "**/*.js"
+      "*.js"
     ]
   }
 }
