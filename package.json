@@ -1,12 +1,18 @@
 {
   "name": "TheHouse",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server/index.js",
   "repository": "https://github.com/BlindBane/TheHouse.git",
   "author": "Aidan Bane <aidanfbane@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
