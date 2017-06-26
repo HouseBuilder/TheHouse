@@ -6,7 +6,8 @@
   "author": "Aidan Bane <aidanfbane@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "nodemon server/index.js",
+    "test": "jest --coverage"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
@@ -15,5 +16,11 @@
   "devDependencies": {
     "jest": "^20.0.4",
     "nodemon": "^1.11.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js", 
+      "server/**/*.js"
+    ]
   }
 }
