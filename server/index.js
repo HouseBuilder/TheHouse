@@ -5,9 +5,8 @@ const app = express()
 
 let PORT = process.env.PORT || 3000
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+// static files
+app.use(express.static(path.join(__dirname, './../public')))
 
 let listener = app.listen(PORT, () => {
   console.log('Server is now listening on:', listener.address().port)
