@@ -60,3 +60,6 @@ typings/
 # DS store files
 .DS_Store
 
+# Webpack bundle
+dist/
+
