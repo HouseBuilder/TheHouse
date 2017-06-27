@@ -2,9 +2,6 @@ import React, { Component } from 'react'
 import { Nav } from './components/container'
 
 class App extends Component {
-  constructor (props) {
-    super(props)
-  }
   render () {
     return (
       <div>
